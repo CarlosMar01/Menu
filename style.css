@@ -1,0 +1,92 @@
+header{
+
+  color: #ffff;
+  display: flex; 
+}
+
+body {
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      overflow-x:scroll;
+      white-space: nowrap;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: nowrap;
+      
+    }
+
+    nav li {
+      margin-right: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #f2f2f2;
+      padding: 2px 7px;
+      border-radius: 100px;
+      background-color: #000;
+    }
+
+    /* Estilos para dispositivos móviles */
+    @media only screen and (max-width: 600px) {
+      nav {
+        overflow-x: scroll;
+      }
+
+      nav ul {
+        justify-content: flex-start;
+      }
+    }
+     .cafes-container {
+      padding: 20px;
+    }
+
+    .cafes-container h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .cafes-container ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .cafes-container li .nombre {
+        font-weight: bold;
+        margin-bottom: 2px;
+        margin-top: 1px;
+        font-size: 18px;
+      }
+
+    .cafes-container li {
+      margin-bottom: 4px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 2px;
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+
+    }
+    .cafes-container li img {
+        margin-right: 28px;
+        margin-left: 10px;
+      }
+
+    .cafes-container li span {
+      font-weight: bold;
+    }
+    .cafes-container li .precio {
+        font-weight: bold;
+        color: #000;
+        font-size: 15px;
+        margin-bottom: 8px;
+      }

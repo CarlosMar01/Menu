@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>La Canasta Viva</title>
+</head>
+<body>
+    <header>
+         <nav>
+         <ul>
+          <li><a href="#cafes">CAFES</a></li>
+          <li><a href="#">BEBIDAS CALIENTES</a></li>
+          <li><a href="#pan">PAN DULCE</a></li>
+         <li><a href="#">BEBIDAS FRIAS</a></li>
+         <li><a href="#">COMBOS</a></li>
+      </ul>
+  </nav>
+    </header>
+    <script>
+        window.addEventListener('scroll', function() {
+        var header = document.querySelector('header');
+        var scrollPosition = window.scrollY;
+  
+        if (scrollPosition > 0) {
+            header.classList.add('fixed');
+        } else {
+            header.classList.remove('fixed');
+            }
+            });
+    </script>
+  <section id="cafes">
+    <div class="cafes-container">
+        <div>
+            <h2>Cafés</h2>
+            <ul>
+                <li><img src="imagenes/canele.jpeg" width="88" height="60">
+                    <div>
+                        <p class="nombre">Americano</p>
+                        <p>340 ml</p>
+                        <p class="precio">$15.00</p>
+                    </div>
+                </li>
+                <li><img src="imagenes/canele.jpeg" width="88" height="60">
+                    <div>
+                        <p class="nombre">Americano</p>
+                        <p>340 ml</p>
+                        <p class="precio">$15.00</p>
+                    </div>
+                </li>
+                <li><img src="imagenes/canele.jpeg" width="88" height="60">
+                    <div>
+                        <p class="nombre">Americano</p>
+                        <p>340 ml</p>
+                        <p class="precio">$15.00</p>
+                    </div>
+                </li>
+                <li><img src="imagenes/canele.jpeg" width="88" height="60">
+                    <div>
+                        <p class="nombre">Americano</p>
+                        <p>340 ml</p>
+                        <p class="precio">$15.00</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </section>
+  <section id="pan">
+    <div class="cafes-container">
+        <div>
+            <h2>Cafés</h2>
+            <ul>
+                <li><img src="imagenes/canele.jpeg" width="88" height="60">
+                    <div>
+                        <p class="nombre">Americano</p>
+                        <p>340 ml</p>
+                        <p class="precio">$15.00</p>
+                    </div>
+                </li>
+                <li><img src="imagenes/canele.jpeg" width="88" height="60">
+                    <div>
+                        <p class="nombre">Americano</p>
+                        <p>340 ml</p>
+                        <p class="precio">$15.00</p>
+                    </div>
+                </li>
+                <li><img src="imagenes/canele.jpeg" width="88" height="60">
+                    <div>
+                        <p class="nombre">Americano</p>
+                        <p>340 ml</p>
+                        <p class="precio">$15.00</p>
+                    </div>
+                </li>
+                <li><img src="imagenes/canele.jpeg" width="88" height="60">
+                    <div>
+                        <p class="nombre">Americano</p>
+                        <p>340 ml</p>
+                        <p class="precio">$15.00</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </section>
+</body>
+</html>
